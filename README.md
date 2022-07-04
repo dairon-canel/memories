@@ -1,50 +1,54 @@
-# Memories
+
+<h1>Memories</h1>
+<p>
 Memories is a full-stack MERN social media application, build to share images and travel experiences, built from the insights of the JavascriptMastery tutorial. This project is built using the MERN stack using React, Node.js, Express & MongoDB.
+</p>
+<h3>Run Locally</h3>
 
-### Run Locally
+<ul>
+<li>Run this command `git clone https://github.com/developer-junaid/MERN-Memories-App.git`</li>
+<li>You are now in the dev environment and you can play around</li>
+</ul>
 
-- Run this command `git clone https://github.com/developer-junaid/MERN-Memories-App.git`
-- You are now in the dev environment and you can play around
+<h3>Features</h3>
+<ul>
+<li>Authentication (Login/Signup) and with (Google)</li>
+<li>Create and Update Memories</li>
+<li>Like and Delete Memories</li>
+<li>View Other user's memories</li>
+<li>Recommended Posts</li>
+<li>Mobile Responsive</li>
+<li>Open Source (Tweak it and use it) :)</li>
+<li>Pagination</li>
+<li>Validation</li>
+</ul>
+<h3>Tech Stack</h3>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Javascript and ES+6</li>
+<li>Material-UI</li>
+<li>ReactJs</li>
+<li>Redux, Redux-Thunk</li>
+<li>NodeJs</li>
+<li>ExpressJs</li>
+<li>MongoDB Atlas</li>
+</ul>
+<h3>Packages</h3>
 
-### Features
-
-- Authentication (Login/Signup) and with (Google)
-- Create and Update Memories
-- Like and Delete Memories
-- View Other user's memories
-- Recommended Posts
-- Mobile Responsive
-- Open Source (Tweak it and use it) :)
-- Pagination
-- Validation
-
-### Tech Stack
-
-- HTML5
-- CSS3
-- Javascript and ES+6
-- Material-UI
-- ReactJs
-- Redux, Redux-Thunk
-- NodeJs
-- ExpressJs
-- MongoDB Atlas
-
-### Packages
-
-- Frontend
-- - axios
-- - moment
-- - redux
-- - redux-thunk
-- - @material-ui/core
-- - @material-ui/icons
-- - material-ui-chip-input
-- - @material-ui/lab
-- - react-file-base64
-- - react-google-login (for google login feature)
-- - jwt-decode (web tokens decoding)
-
+<ul>Frontend
+<li>axios</li>
+<li>moment</li>
+<li>redux</li>
+<li>redux-thunk</li>
+<li>@material-ui/core</li>
+<li>@material-ui/icons</li>
+<li>material-ui-chip-input</li>
+<li>@material-ui/lab</li>
+<li>react-file-base64</li>
+<li>react-google-login (for google login feature)</li>
+<li>jwt-decode (web tokens decoding)</li>
+</ul>
 <ul>Backend
  <li>express</li>
  <li>mongoose (for managing mongoDB)</li>
@@ -55,4 +59,3 @@ Memories is a full-stack MERN social media application, build to share images an
  <li>bcryptjs (for password hashing)</li>
  <li>jsonwebtoken (for web tokens and sessions)</li>
 </ul>
-
