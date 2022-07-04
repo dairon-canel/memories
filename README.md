@@ -45,12 +45,12 @@ Memories is a full-stack MERN social media application, build to share images an
 - - react-google-login (for google login feature)
 - - jwt-decode (web tokens decoding)
 
-- Backend
-- - express
-- - mongoose (for managing mongoDB)
-- - cors
-- - dotenv (for environment variables)
-- - body-parser
-- - nodemon
-- - bcryptjs (for password hashing)
-- - jsonwebtoken (for web tokens and sessions)
+# Backend
+ - express
+ - mongoose (for managing mongoDB)
+ - cors
+ - dotenv (for environment variables)
+ - body-parser
+ - nodemon
+ - bcryptjs (for password hashing)
+ - jsonwebtoken (for web tokens and sessions)
