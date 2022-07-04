@@ -36,7 +36,7 @@ Memories is a full-stack MERN social media application, build to share images an
 </ul>
 <h3>Packages</h3>
 
-<ul>Frontend
+<ul><li>Frontend</li><ul>
 <li>axios</li>
 <li>moment</li>
 <li>redux</li>
@@ -47,9 +47,9 @@ Memories is a full-stack MERN social media application, build to share images an
 <li>@material-ui/lab</li>
 <li>react-file-base64</li>
 <li>react-google-login (for google login feature)</li>
-<li>jwt-decode (web tokens decoding)</li>
-</ul>
-<ul>Backend
+ <li>jwt-decode (web tokens decoding)</li></ul>
+
+ <li>Backend</li><ul>
  <li>express</li>
  <li>mongoose (for managing mongoDB)</li>
  <li>cors</li>
