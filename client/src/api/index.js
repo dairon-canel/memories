@@ -19,6 +19,9 @@ export const fetchPostsBySearch = (searchQuery) =>
       searchQuery.tags
     }`
   );
+
+export const fetchPostsByCreator = (name) =>
+  API.get(`/posts/creator?name=${name}`);
 export const createPost = (newPost) => API.post("/posts", newPost);
 export const updatePost = (id, updatedPost) =>
   API.patch(`/posts/${id}`, updatedPost);

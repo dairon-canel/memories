@@ -9,7 +9,7 @@ import {
   DELETE,
   LIKE,
   COMMENT,
-  //FETCH_BY_CREATOR,
+  FETCH_BY_CREATOR,
 } from "../constants/actionTypes";
 import * as api from "../api/index.js";
 
@@ -42,7 +42,7 @@ export const getPosts = (page) => async (dispatch) => {
   }
 };
 
-/* export const getPostsByCreator = (name) => async (dispatch) => {
+export const getPostsByCreator = (name) => async (dispatch) => {
   try {
     dispatch({ type: START_LOADING });
     const {
@@ -54,7 +54,7 @@ export const getPosts = (page) => async (dispatch) => {
   } catch (error) {
     console.log(error);
   }
-}; */
+};
 
 export const getPostsBySearch = (searchQuery) => async (dispatch) => {
   try {
