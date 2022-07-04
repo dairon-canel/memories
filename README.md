@@ -1,12 +1,12 @@
-### Memories
+# Memories
 Memories is a full-stack MERN social media application, build to share images and travel experiences, built from the insights of the JavascriptMastery tutorial. This project is built using the MERN stack using React, Node.js, Express & MongoDB.
 
-## Run Locally
+### Run Locally
 
 - Run this command `git clone https://github.com/developer-junaid/MERN-Memories-App.git`
 - You are now in the dev environment and you can play around
 
-## Features
+### Features
 
 - Authentication (Login/Signup) and with (Google)
 - Create and Update Memories
@@ -18,7 +18,7 @@ Memories is a full-stack MERN social media application, build to share images an
 - Pagination
 - Validation
 
-## Tech Stack
+### Tech Stack
 
 - HTML5
 - CSS3
@@ -30,7 +30,7 @@ Memories is a full-stack MERN social media application, build to share images an
 - ExpressJs
 - MongoDB Atlas
 
-## Packages
+### Packages
 
 - Frontend
 - - axios
@@ -45,7 +45,7 @@ Memories is a full-stack MERN social media application, build to share images an
 - - react-google-login (for google login feature)
 - - jwt-decode (web tokens decoding)
 
-# Backend
+- Backend
  - express
  - mongoose (for managing mongoDB)
  - cors
