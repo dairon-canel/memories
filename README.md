@@ -4,7 +4,7 @@
 Memories is a full-stack MERN social media application, build to share images and travel experiences, built from the insights of the JavascriptMastery tutorial. This project is built using the MERN stack using React, Node.js, Express & MongoDB.
 </p>
 <h2>Live Site</h2>
-<a href="memoriesapp-daironcanel.netlify.app">Memories App</a>
+<a href="https://memoriesapp-daironcanel.netlify.app">Memories App</a>
 
 <h3>Features</h3>
 <ul>
