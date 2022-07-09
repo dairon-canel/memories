@@ -23,7 +23,9 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 5000;
 
 mongoose
-  .connect(process.env.CONNECTION_URL)
+  .connect(
+    "mongodb://dairon:Dairon123@cluster0-shard-00-00.le5en.mongodb.net:27017,cluster0-shard-00-01.le5en.mongodb.net:27017,cluster0-shard-00-02.le5en.mongodb.net:27017/?ssl=true&replicaSet=atlas-mbiaux-shard-0&authSource=admin&retryWrites=true&w=majority"
+  )
   .then(() =>
     app.listen(PORT, () => console.log(`Server running on port: ${PORT}`))
   )
